@@ -410,3 +410,277 @@ System memory in use after: 79.8 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
 Total: 6.820048 ms (FindLiveObjects: 0.430537 ms CreateObjectMapping: 0.207905 ms MarkObjects: 5.954331 ms  DeleteObjects: 0.225170 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 20297.276875 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed
+  artifactKey: Guid(9b9fa4e2b95df5143b758d0fabdcb8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed using Guid(9b9fa4e2b95df5143b758d0fabdcb8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec8cdc513ca052d9b50fff9a99b1d85') in 0.006612 seconds
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061207 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00000.psd
+  artifactKey: Guid(5b8849e8703cd2a48856f693a7ce5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00000.psd using Guid(5b8849e8703cd2a48856f693a7ce5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c3b3f95e0fe477ae817f6f08d4969b') in 0.237877 seconds
+  Import took 0.244262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00001.psd
+  artifactKey: Guid(25813c6fe10cf6c43b92057c55fe21bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00001.psd using Guid(25813c6fe10cf6c43b92057c55fe21bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190aa338c3cdf30312b45ce50c93b5ba') in 0.046823 seconds
+  Import took 0.052806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00010.psd
+  artifactKey: Guid(8533facd69878cc44b2123eefba2d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00010.psd using Guid(8533facd69878cc44b2123eefba2d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dbc07b9eb63f3323f0e500bfda00ef') in 0.013917 seconds
+  Import took 0.020771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00011.psd
+  artifactKey: Guid(90a8c9325bb9fd4478658c0f72c135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00011.psd using Guid(90a8c9325bb9fd4478658c0f72c135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abe49a4af4c628c27a9ddb8d2d18ec5') in 0.025982 seconds
+  Import took 0.032297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00003.psd
+  artifactKey: Guid(73f17f0ea9044d5419812f58e8154a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00003.psd using Guid(73f17f0ea9044d5419812f58e8154a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d1b82ca26084d83c2feae4ef3a7482') in 0.028595 seconds
+  Import took 0.035284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00013.psd
+  artifactKey: Guid(40af6f7298415f340867c8409d34d6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00013.psd using Guid(40af6f7298415f340867c8409d34d6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877bfb90e1a833c17d3a137559aa1f16') in 0.026152 seconds
+  Import took 0.032996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00014.psd
+  artifactKey: Guid(55bd0bf19a65f4c4c8c025b57c92d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00014.psd using Guid(55bd0bf19a65f4c4c8c025b57c92d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdbed371a7db1f4d250a2e43260acc') in 0.037502 seconds
+  Import took 0.045601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00015.psd
+  artifactKey: Guid(28f12876b78240a4aa78e0948517b936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00015.psd using Guid(28f12876b78240a4aa78e0948517b936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216595069378da85dbb9a0f3b5e48ad') in 0.033729 seconds
+  Import took 0.041768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00005.psd
+  artifactKey: Guid(d4de74aee97397b44b7df297ba53a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00005.psd using Guid(d4de74aee97397b44b7df297ba53a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cd8560ab5a8a2375909766277f8ad2') in 0.045832 seconds
+  Import took 0.054189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00012.psd
+  artifactKey: Guid(06e00fa6af8638a4ba5e66629f30e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00012.psd using Guid(06e00fa6af8638a4ba5e66629f30e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc50ddd1a732cc576e8f4a3d15e1147') in 0.033026 seconds
+  Import took 0.040349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00004.psd
+  artifactKey: Guid(4ef041ab5e189614f92e3d34f3fb7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00004.psd using Guid(4ef041ab5e189614f92e3d34f3fb7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d7d99b721e82e1f7c462c03b2e3e8d') in 0.039826 seconds
+  Import took 0.046365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00002.psd
+  artifactKey: Guid(c7c2dfe89c40d80408f4c2373da8dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00002.psd using Guid(c7c2dfe89c40d80408f4c2373da8dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8027a6d6036e080edd64a4ccac50aae') in 0.019997 seconds
+  Import took 0.025758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00006.psd
+  artifactKey: Guid(a3bd87442a1340045bdc9d4f68f020bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00006.psd using Guid(a3bd87442a1340045bdc9d4f68f020bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fc2cc9cf6ccfe2d49eaf069ae7c081') in 0.044548 seconds
+  Import took 0.055147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00008.psd
+  artifactKey: Guid(2486687f5b9cec34fbd039e818fcd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00008.psd using Guid(2486687f5b9cec34fbd039e818fcd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc40390911c1633eef640702ef535bc') in 0.042524 seconds
+  Import took 0.049418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00009.psd
+  artifactKey: Guid(baa9c1371622a9b42a10d5b06f18b0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00009.psd using Guid(baa9c1371622a9b42a10d5b06f18b0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44dbf4ba424f813848c00652b25a00f') in 0.018828 seconds
+  Import took 0.027897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000915 seconds.
+  path: Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00007.psd
+  artifactKey: Guid(5a268b4f96c2b004ea1a38c78e2277a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/Power_Ups/Speed/Powerup1_0008_00007.psd using Guid(5a268b4f96c2b004ea1a38c78e2277a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f675b6b14d6754aaf5d76bd1b00b4b') in 0.042492 seconds
+  Import took 0.051370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 6.336006 ms (FindLiveObjects: 0.339016 ms CreateObjectMapping: 0.161780 ms MarkObjects: 5.670096 ms  DeleteObjects: 0.162243 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 5.679465 ms (FindLiveObjects: 0.399533 ms CreateObjectMapping: 0.249802 ms MarkObjects: 4.817948 ms  DeleteObjects: 0.209857 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 4.347773 ms (FindLiveObjects: 0.338329 ms CreateObjectMapping: 0.171086 ms MarkObjects: 3.669394 ms  DeleteObjects: 0.166265 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 4.398237 ms (FindLiveObjects: 0.351083 ms CreateObjectMapping: 0.162471 ms MarkObjects: 3.714073 ms  DeleteObjects: 0.168076 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 6.182395 ms (FindLiveObjects: 0.394126 ms CreateObjectMapping: 0.163485 ms MarkObjects: 5.161432 ms  DeleteObjects: 0.457153 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.034010 ms (FindLiveObjects: 0.279072 ms CreateObjectMapping: 0.116003 ms MarkObjects: 3.473855 ms  DeleteObjects: 0.162569 ms)
+

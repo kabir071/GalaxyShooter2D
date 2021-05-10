@@ -6,6 +6,8 @@ public class powerup : MonoBehaviour
 {
     [SerializeField]
     private float speed;
+    [SerializeField]
+    private int powerupID;//0 for tripleshot, 1 for speed, 2 for shield
 
    
 
@@ -28,7 +30,21 @@ public class powerup : MonoBehaviour
                if(playerv != null)
                {
                 //enable triple shot
-               playerv.tripleshotpowerupon();
+                if( powerupID == 0)
+                {
+                    playerv.tripleshotpowerupon();
+                }
+                //speed powerup
+                else if( powerupID == 1)
+                {
+                    playerv.speeduppowerupon();
+                }
+                //shield powerup
+                else if(powerupID == 2)
+                {
+
+                }
+               
                }
                 //destroy powerup
                 Destroy(this.gameObject);

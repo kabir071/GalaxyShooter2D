@@ -11,7 +11,7 @@ public class player1 : MonoBehaviour
     [SerializeField]
     private float firerate = 0.25f;
     public bool canTripleShot = false;
-
+    public bool canSpeedup = false;
     
     void Start()
     {
@@ -23,6 +23,7 @@ public class player1 : MonoBehaviour
     {
         Movement();
         Shooting();
+        speedft();
         
     }
 
@@ -86,6 +87,10 @@ public class player1 : MonoBehaviour
         }
 
     }
+
+
+
+    //tripleshot cool down
 public void tripleshotpowerupon()
 {
     canTripleShot = true;
@@ -95,6 +100,35 @@ public void tripleshotpowerupon()
           {
               yield return new WaitForSeconds(5.0f);
               canTripleShot = false;
+          }
+
+
+
+          //speedup enable
+          private void speedft()
+          {
+              if( canSpeedup == true)
+              {
+                  speed = 10.0f;
+              }
+              else
+              {
+                  speed = 5.0f;
+              }
+          }
+
+// speedup cooldown
+          public void speeduppowerupon()
+          {
+            canSpeedup = true;
+            StartCoroutine(powerdownspeedup());
+          }
+
+
+          public IEnumerator powerdownspeedup()
+          {
+              yield return new WaitForSeconds(5.0f);
+              canSpeedup = false;
           }
         
         
