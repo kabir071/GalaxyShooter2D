@@ -24,9 +24,13 @@ public class powerup : MonoBehaviour
             {
                   //accessing player script
                player1 playerv = other.GetComponent<player1>();
-               //enable triple shot
-               playerv.canTripleShot = true;
-                //destrou powerup
+
+               if(playerv != null)
+               {
+                //enable triple shot
+               playerv.tripleshotpowerupon();
+               }
+                //destroy powerup
                 Destroy(this.gameObject);
             }
                
