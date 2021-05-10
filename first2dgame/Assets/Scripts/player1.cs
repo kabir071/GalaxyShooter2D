@@ -10,7 +10,7 @@ public class player1 : MonoBehaviour
     private float canfire = 0.0f;
     [SerializeField]
     private float firerate = 0.25f;
-    public bool canTripleShot;
+    public bool canTripleShot = false;
 
     
     void Start()

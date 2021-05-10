@@ -19,9 +19,17 @@ public class powerup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
         {
+            
             if(other.tag == "Player")
             {
+                  //accessing player script
+               player1 playerv = other.GetComponent<player1>();
+               //enable triple shot
+               playerv.canTripleShot = true;
+                //destrou powerup
                 Destroy(this.gameObject);
             }
+               
+            
         }
 }
