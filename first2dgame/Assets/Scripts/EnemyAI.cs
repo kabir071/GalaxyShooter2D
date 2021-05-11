@@ -6,6 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
   public float speed;
   public GameObject enemyExplosion_prefab;
+  public GameObject Explosion_prefab;
   public int lives = 3;
     // Start is called before the first frame update
     void Start()
@@ -46,7 +47,9 @@ public class EnemyAI : MonoBehaviour
             lives--;
             if(lives==0)
             {
+                Instantiate(Explosion_prefab, other.gameObject.transform.position, Quaternion.identity);
                 Destroy(other.gameObject);
+                
             }
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);

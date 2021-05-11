@@ -12,7 +12,7 @@ public class player1 : MonoBehaviour
     private float firerate = 0.25f;
     public bool canTripleShot = false;
     public bool canSpeedup = false;
-    public int lives = 3;
+    
     
     void Start()
     {
