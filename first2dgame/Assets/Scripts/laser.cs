@@ -6,7 +6,7 @@ public class laser : MonoBehaviour
 {
     [SerializeField]
     private float speed;
-    public GameObject enemyExplosion_prefab;
+    
     void Start()
     {
         
@@ -29,17 +29,6 @@ public class laser : MonoBehaviour
     }
 
 
- //collision between enemy and laser
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.tag == "Enemy")
-        
-        {
-            Destroy(this.gameObject);
-            Instantiate(enemyExplosion_prefab, other.gameObject.transform.position, Quaternion.identity);
-            Destroy(other.gameObject);
-
-        }
-    }
+ 
 
 }

@@ -123,9 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bdd24a223c3ca059a9264370b83ceb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2.5
   enemyExplosion_prefab: {fileID: 5517056828876983966, guid: d52ee3510b134ea6ca48fa05e10229b2, type: 3}
-  Explosion_prefab: {fileID: 5656568157307288095, guid: 29ddff9139c9615c3b322900e22f72d0, type: 3}
   lives: 3
 --- !u!50 &6762604986029501975
 Rigidbody2D:

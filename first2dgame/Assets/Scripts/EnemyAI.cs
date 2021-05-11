@@ -6,8 +6,8 @@ public class EnemyAI : MonoBehaviour
 {
   public float speed;
   public GameObject enemyExplosion_prefab;
-  public GameObject Explosion_prefab;
   public int lives = 3;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +27,8 @@ public class EnemyAI : MonoBehaviour
         //reappear after y bound
         if(transform.position.y < -6.5)
         {
-            float randomx = Random.Range(-7.4f,7.4f);
-            transform.position = new Vector3(randomx, 6.5f, 0);
+            
+            transform.position = new Vector3(Random.Range(-7.4f,7.4f), 6.5f, 0);
         }
 
     }
@@ -38,23 +38,30 @@ public class EnemyAI : MonoBehaviour
 
 
 
-    //collision between enemy and player
+    //collision between enemy and laser and player
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if(other.tag == "Laser")
         
         {
-            lives--;
-            if(lives==0)
+            Destroy(other.gameObject);
+            Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
+
+        else if(other.tag == "Player")
+        {
+            player1 player = other.GetComponent<player1>();
+            if(player != null)
             {
-                Instantiate(Explosion_prefab, other.gameObject.transform.position, Quaternion.identity);
-                Destroy(other.gameObject);
-                
+                player.Damage();
             }
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
-            
+
         }
     }
 
 }
+
+

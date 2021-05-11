@@ -12,6 +12,8 @@ public class player1 : MonoBehaviour
     private float firerate = 0.25f;
     public bool canTripleShot = false;
     public bool canSpeedup = false;
+    public int lives = 3;
+    public GameObject Explosion_prefab;
     
     
     void Start()
@@ -133,6 +135,15 @@ public void tripleshotpowerupon()
           }
         
         
-    
+    //damage 
+    public void Damage()
+    {
+        lives--;
+        if(lives == 0)
+        {
+            Instantiate(Explosion_prefab, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
+    }
 
 }
