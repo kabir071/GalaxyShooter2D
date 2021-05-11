@@ -534,7 +534,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &82060440201595719
+--- !u!1001 &1940214148
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -547,11 +547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 82060441477376344, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.3622
+      value: 7.41
       objectReference: {fileID: 0}
     - target: {fileID: 82060441477376344, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4105
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 82060441477376344, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -585,9 +585,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82060441477376345, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 82060441477376345, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1195615299
+      objectReference: {fileID: 0}
     - target: {fileID: 82060441477376346, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940809103622178303, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
+      propertyPath: speed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92dc478671bad9218a6eb869039884cf, type: 3}
