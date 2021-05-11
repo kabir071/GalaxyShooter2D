@@ -133,19 +133,6 @@ public void tripleshotpowerupon()
           }
         
         
-    //collision between enemy and player
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.tag == "Enemy")
-        
-        {
-            lives--;
-            if(lives==0)
-            {
-                Destroy(this.gameObject);
-            }
-            Destroy(other.gameObject);
-        }
-    }
+    
 
 }

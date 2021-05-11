@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
   public float speed;
+  public GameObject enemyExplosion_prefab;
+  public int lives = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,12 +33,22 @@ public class EnemyAI : MonoBehaviour
     }
     
 
-    //collision between enemy and laser
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Laser")
+   
+
+
+
+    //collision between enemy and player
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Player")
         
         {
-            Destroy(other.gameObject);
+            lives--;
+            if(lives==0)
+            {
+                Destroy(other.gameObject);
+            }
+            Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
             
         }
