@@ -36,6 +36,7 @@ public class EnemyAI : MonoBehaviour
         if(other.tag == "Laser")
         
         {
+            Destroy(other.gameObject);
             Destroy(this.gameObject);
             
         }

@@ -12,7 +12,7 @@ public class player1 : MonoBehaviour
     private float firerate = 0.25f;
     public bool canTripleShot = false;
     public bool canSpeedup = false;
-    public int health = 3;
+    public int lives = 3;
     
     void Start()
     {
@@ -71,9 +71,9 @@ public class player1 : MonoBehaviour
                
                 if(canTripleShot == true)
                 {
-                      Instantiate(laser_prefab, transform.position + new Vector3(-0.3f,1.9f,0), Quaternion.identity);
-                      Instantiate(laser_prefab, transform.position + new Vector3(0.3f,1.9f,0), Quaternion.identity);
-                      Instantiate(laser_prefab, transform.position + new Vector3(0,1.53f,0), Quaternion.identity);
+                      Instantiate(laser_prefab, transform.position + new Vector3(-0.8f,0.32f,0), Quaternion.identity);
+                      Instantiate(laser_prefab, transform.position + new Vector3(0.8f,0.32f,0), Quaternion.identity);
+                      Instantiate(laser_prefab, transform.position + new Vector3(0,1.38f,0), Quaternion.identity);
                       canfire = Time.time + firerate;
                       
                 }
@@ -139,11 +139,12 @@ public void tripleshotpowerupon()
         if(other.tag == "Enemy")
         
         {
-            health--;
-            if(health==0)
+            lives--;
+            if(lives==0)
             {
                 Destroy(this.gameObject);
             }
+            Destroy(other.gameObject);
         }
     }
 
