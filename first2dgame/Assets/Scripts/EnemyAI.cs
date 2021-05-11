@@ -29,4 +29,16 @@ public class EnemyAI : MonoBehaviour
         }
 
     }
+    
+
+    //collision between enemy and laser
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Laser")
+        
+        {
+            Destroy(this.gameObject);
+            
+        }
+    }
+
 }

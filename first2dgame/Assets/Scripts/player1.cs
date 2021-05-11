@@ -12,6 +12,7 @@ public class player1 : MonoBehaviour
     private float firerate = 0.25f;
     public bool canTripleShot = false;
     public bool canSpeedup = false;
+    public int health = 3;
     
     void Start()
     {
@@ -132,5 +133,18 @@ public void tripleshotpowerupon()
           }
         
         
-    
+    //collision between enemy and player
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Enemy")
+        
+        {
+            health--;
+            if(health==0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+    }
+
 }

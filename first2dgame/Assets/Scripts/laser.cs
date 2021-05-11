@@ -26,4 +26,14 @@ public class laser : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+//collision between enemy and laser
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Enemy")
+        
+        {
+            Destroy(this.gameObject);
+            
+        }
+    }
 }
