@@ -15,6 +15,8 @@ public class player1 : MonoBehaviour
     public int lives = 3;
     public GameObject Explosion_prefab;
     private  UIManager _uimanager;
+    private  GameManager _gamemanager;
+    private spawnManager1 _spawnmanager;
     
     
     void Start()
@@ -23,6 +25,7 @@ public class player1 : MonoBehaviour
 
         
         _uimanager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        _gamemanager = GameObject.Find("GameManager").GetComponent<GameManager>();
         
         
           if(_uimanager != null)
@@ -30,6 +33,8 @@ public class player1 : MonoBehaviour
              _uimanager.UpdateLives(lives);
           } 
         
+        _spawnmanager = GameObject.Find("SpawnManager").GetComponent<spawnManager1>();
+        _spawnmanager.StartSpawn();
         
     }
 
@@ -156,7 +161,16 @@ public void tripleshotpowerupon()
         {
             Instantiate(Explosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
+            _gamemanager.gameOver = true;
+             _uimanager.ShowMenu();
+            
+            
+
         }
     }
+
+    
+       
+    
 
 }
