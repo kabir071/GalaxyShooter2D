@@ -1,2 +1,2 @@
 # GalaxyShooter2D
-My first 2D game.
+Checkout the game at: https://gamepipe.io/@kabir-wadhwafbit/galaxy-shooter
