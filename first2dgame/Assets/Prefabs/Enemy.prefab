@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 82060441477376359}
   - component: {fileID: 1940809103622178303}
   - component: {fileID: 6762604986029501975}
-  - component: {fileID: -2048680310425331218}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -127,6 +126,7 @@ MonoBehaviour:
   speed: 2.5
   enemyExplosion_prefab: {fileID: 5517056828876983966, guid: d52ee3510b134ea6ca48fa05e10229b2, type: 3}
   lives: 3
+  _clip: {fileID: 8300000, guid: a885c043fab7e46438bba03ba9dab6bc, type: 3}
 --- !u!50 &6762604986029501975
 Rigidbody2D:
   serializedVersion: 4
@@ -148,15 +148,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-2048680310425331218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82060441477376346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85a2d0808fba34f0fa8fc5784a7dbf60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

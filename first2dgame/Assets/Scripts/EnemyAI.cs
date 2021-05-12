@@ -8,12 +8,16 @@ public class EnemyAI : MonoBehaviour
   public GameObject enemyExplosion_prefab;
   public int lives = 3;
   private UIManager _uimanager1;
+  [SerializeField]
+  private AudioClip _clip;
+  private GameManager _gamemanager ;
+
   
   
     // Start is called before the first frame update
     void Start()
     {
-        
+       _gamemanager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -29,8 +33,11 @@ public class EnemyAI : MonoBehaviour
         //reappear after y bound
         if(transform.position.y < -6.5)
         {
+          if(_gamemanager.gameOver == false)
+          {
+               transform.position = new Vector3(Random.Range(-7.4f,7.4f), 6.5f, 0);
+          }  
             
-            transform.position = new Vector3(Random.Range(-7.4f,7.4f), 6.5f, 0);
         }
 
     }
@@ -49,8 +56,10 @@ public class EnemyAI : MonoBehaviour
         {
             Destroy(other.gameObject);
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
             _uimanager1.UpdateScore();
+            AudioSource.PlayClipAtPoint(_clip, Camera.main.transform.position);
+            Destroy(this.gameObject);
+            
         }
 
         else if(other.tag == "Player")
@@ -61,8 +70,9 @@ public class EnemyAI : MonoBehaviour
                 player.Damage();
             }
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
+            AudioSource.PlayClipAtPoint(_clip, Camera.main.transform.position);
             Destroy(this.gameObject);
-            _uimanager1.UpdateScore();
+            
 
         }
     }

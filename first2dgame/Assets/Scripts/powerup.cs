@@ -8,6 +8,8 @@ public class powerup : MonoBehaviour
     private float speed;
     [SerializeField]
     private int powerupID;//0 for tripleshot, 1 for speed, 2 for shield
+    [SerializeField]
+    private AudioClip _clip;
 
    
 
@@ -28,6 +30,7 @@ public class powerup : MonoBehaviour
             
             if(other.tag == "Player")
             {
+                AudioSource.PlayClipAtPoint(_clip, Camera.main.transform.position);
                   //accessing player script
                player1 playerv = other.GetComponent<player1>();
 

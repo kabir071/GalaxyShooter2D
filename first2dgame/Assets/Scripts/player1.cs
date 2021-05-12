@@ -17,6 +17,7 @@ public class player1 : MonoBehaviour
     private  UIManager _uimanager;
     private  GameManager _gamemanager;
     private spawnManager1 _spawnmanager;
+    private AudioSource _audiosource; 
     
     
     void Start()
@@ -35,6 +36,7 @@ public class player1 : MonoBehaviour
         
         _spawnmanager = GameObject.Find("SpawnManager").GetComponent<spawnManager1>();
         _spawnmanager.StartSpawn();
+        _audiosource = GetComponent<AudioSource>();
         
     }
 
@@ -85,6 +87,7 @@ public class player1 : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
         {
            //cooldown system for shooting
+           _audiosource.Play();
            if(Time.time > canfire)
            {
                
