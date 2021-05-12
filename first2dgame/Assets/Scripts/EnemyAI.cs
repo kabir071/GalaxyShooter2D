@@ -7,6 +7,8 @@ public class EnemyAI : MonoBehaviour
   public float speed;
   public GameObject enemyExplosion_prefab;
   public int lives = 3;
+  private UIManager _uimanager1;
+  
   
     // Start is called before the first frame update
     void Start()
@@ -40,13 +42,15 @@ public class EnemyAI : MonoBehaviour
 
     //collision between enemy and laser and player
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    { 
+        _uimanager1 = GameObject.Find("Canvas").GetComponent<UIManager>();
         if(other.tag == "Laser")
         
         {
             Destroy(other.gameObject);
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
+            _uimanager1.UpdateScore();
         }
 
         else if(other.tag == "Player")
@@ -58,6 +62,7 @@ public class EnemyAI : MonoBehaviour
             }
             Instantiate(enemyExplosion_prefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
+            _uimanager1.UpdateScore();
 
         }
     }

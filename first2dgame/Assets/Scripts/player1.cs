@@ -14,11 +14,23 @@ public class player1 : MonoBehaviour
     public bool canSpeedup = false;
     public int lives = 3;
     public GameObject Explosion_prefab;
+    private  UIManager _uimanager;
     
     
     void Start()
     {
         transform.position = new Vector3(0,-3,0);
+
+        
+        _uimanager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        
+        
+          if(_uimanager != null)
+          {
+             _uimanager.UpdateLives(lives);
+          } 
+        
+        
     }
 
     
@@ -139,6 +151,7 @@ public void tripleshotpowerupon()
     public void Damage()
     {
         lives--;
+        _uimanager.UpdateLives(lives);
         if(lives == 0)
         {
             Instantiate(Explosion_prefab, transform.position, Quaternion.identity);
